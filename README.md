@@ -1,18 +1,18 @@
 Izvēlētā ideja: 3. Personīgais budžeta plānotājs ar kategorijām · Lietotās valodas: PHP, MySQL, HTML, JavaScript
+Repozitorijs: https://github.com/antic230/Personigais-budzeta-planotajs-ar-kategorijam 
 
-## Struktūra un palaišana
-| Fails | Slānis |
-|---|---|
-| `index.php` | lietotāja saskarne (lapas, formas, diagramma) |
-| `logic.php` | programmas loģika (validācija, autentifikācija, budžeta aprēķini) |
-| `data.php` | datu apstrāde/saglabāšana (PDO + SQL vaicājumi) |
-| `schema.sql` | datubāzes shēma |
+ Struktūra un palaišana
+
+ `index.php` / lietotāja saskarne (lapas, formas, diagramma) 
+ `logic.php` / programmas loģika (validācija, autentifikācija, budžeta aprēķini) 
+ `data.php` / datu apstrāde/saglabāšana (PDO + SQL vaicājumi) 
+ `schema.sql` / datubāzes shēma 
 
 1. Ievieto mapi `htdocs/budget` (XAMPP) un palaid Apache + MySQL.
-2. phpMyAdmin → **Import** → `schema.sql`. Ja vajag, pārlabo piekļuves datus `data.php` sākumā.
+2. phpMyAdmin → Import → `schema.sql`.
 3. Atver `http://localhost/budget/index.php`, reģistrējies un piesakies.
 
-## Izmantotie resursi no interneta
+ Izmantotie resursi no interneta
 | Resurss | Kur lietots | Kāpēc / ko pielāgoju |
 |---|---|---|
 | [Pico.css 2.0.6](https://picocss.com/) | `index.php` (CDN) | Gatavs minimāls stils bez atsevišķa CSS faila; tikai pievienotas klases (`grid`, `container`). |
