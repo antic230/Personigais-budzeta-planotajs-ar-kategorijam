@@ -1,7 +1,4 @@
-# Personīgais budžeta plānotājs ar kategorijām
-
-**Izvēlētā ideja:** 3. Personīgais budžeta plānotājs ar kategorijām · **Tehnoloģijas:** PHP 8.1+, MySQL (phpMyAdmin), HTML, JavaScript
-**Repozitorijs:** _(ielīmē savu saiti)_
+Izvēlētā ideja: 3. Personīgais budžeta plānotājs ar kategorijām · Lietotās valodas: PHP, MySQL, HTML, JavaScript
 
 ## Struktūra un palaišana
 | Fails | Slānis |
